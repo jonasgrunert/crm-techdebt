@@ -20,7 +20,7 @@ Based upan an article from the Information and Software Technology Journal:
 
 > "Technical debt describes the consequences of software development actions that intentionally or unintentionally prioritize client value and/or project constraints such as delivery deadlines, over more technical implementation and design considerations…"
 
-## Categroies
+## Categories
 
 According to a paper in the Software Engineering Institute called: "Towards an Ontology of termns on Technical Debt", there are thirteen categories of debt:
 
@@ -42,4 +42,9 @@ Though they feel more like the places, where the dabt can occur
 
 ## Is tech debt bad
 
-Neither nor. It might be bad, when not handleld carefully. It might be good if it si monitored accordingly.
+Neither nor. It might be bad, when not handleld carefully. It might be good if it is monitored accordingly.
+
+# Notes to take with
+
+- Suggested categories are more like places where a debt is
+- Debt is neither per se good nor bad
