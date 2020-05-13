@@ -1,0 +1,1 @@
+Technical debt is the work needed to take a system from the current to an ideal state. Techincal debt genreates value in the short term and interest in the long term. It is environment specific and can be racked up strategically or recklessly.
