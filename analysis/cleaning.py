@@ -34,5 +34,5 @@ df["Complexity Delta"] = df.apply(lambda row: sqale_delta(row, "Complexity"), ax
 df["% Comments Delta"] = df.apply(lambda row: sqale_delta(row, "% Comments"), axis = 1)
 df["% Duplicated lines Delta"] = df.apply(lambda row: sqale_delta(row, "% Duplicated lines"), axis = 1)
 # This is all about if the debt increases: 0 if it is 0, -1 if it is lower and1 if it has risen
-df["Debt Indicator"] = df.apply(lambda row: -1 if row["SQALE Delta"] < 0 else 0 if row["SQALE Delta"] = 0  else 1, axis= 1)
+df["Debt Indicator"] = df.apply(lambda row: -1 if row["SQALE Delta"] < 0 else 0 if row["SQALE Delta"] == 0 else 1, axis= 1)
 df.to_csv("cleaned_data.csv")
